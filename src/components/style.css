@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.glasses .img1 {
+    width: 100%;
+    position: relative;
+    filter: grayscale(70%);
+    filter: contrast(50%);
+    height: 800px;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 80px;
+    align-items: center;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.content .model {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.9;
+}
+
+.content .model img {
+    width: 100%;
+    height: 300px;
+}
+
+.content .model .img2 {
+    position: absolute;
+    width: 50%;
+    height: 50px;
+    top: 20%;
+    left: 25%;
+}
+
+.info {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 31.5%;
+    height: 150px;
+    transform: translateX(-50%);
+    background-color: #FFD39B;
+    color: aliceblue;
+    align-items: center;
+    opacity: 0.99;
+
+}
+
+.try-glass {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    padding: 20px;
+    opacity: 0.8;
+
+}
+
+.try-glass img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 0px 10px 20px;
+
+}
+
+.btn-glass {
+    padding: 8px 20px;
+}
